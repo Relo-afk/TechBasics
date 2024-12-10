@@ -46,7 +46,7 @@ def login_page():
     if login_button:
         # connect to collection
         # define the database
-        db_name = 'user_registration_data'
+        db_name = 'streamlit_registration_data'
         # define the collection
         collection_name = 'userinfo'
         collection = connect_to_collection(db_name, collection_name)
